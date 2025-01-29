@@ -12,7 +12,7 @@ function createInstructor(firstName, lastName){
   }
 }
 
-//   var favoriteNumber = 42;
+// var favoriteNumber = 42;
 
 // var instructor = {
 //   firstName: "Colt"
@@ -21,7 +21,12 @@ function createInstructor(firstName, lastName){
 // instructor[favoriteNumber] = "That is my favorite!"
 /* Write an ES2015 Version */
 
+let favoriteNumber = 42;
 
+const instructor = {
+  firstName: "Colt",
+  [favoriteNumber]: "That is my favorite!"
+}
 
 // var instructor = {
 //     firstName: "Colt",
