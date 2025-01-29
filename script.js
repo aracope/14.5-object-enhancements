@@ -39,6 +39,16 @@ const instructor = {
 //   }
 /* Write an ES2015 Version */
 
+const instructor2 = {
+    firstName: "Colt",
+    sayHi() {
+      return "Hi!";
+    },
+    sayBye() {
+      return this.firstName + "says bye!";
+    }
+  }
+
 // Write a function which generates an animal object. The function should accepts 3 arguments:
 
 // - species: the species of animal (‘cat’, ‘dog’)
