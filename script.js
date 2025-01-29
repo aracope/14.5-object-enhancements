@@ -5,7 +5,12 @@
 //     }
 //   }
 /* Write an ES2015 Version */
-
+function createInstructor(firstName, lastName){
+  return {
+    firstName,
+    lastName
+  }
+}
 
 //   var favoriteNumber = 42;
 
